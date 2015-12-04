@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daggerok/coffee-jasmine-angluar.git"
+    "url": "git+https://github.com/daggerok/coffee-karma-angluar.git"
   },
   "author": "Maksim Kostromin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/daggerok/coffee-jasmine-angluar/issues"
+    "url": "https://github.com/daggerok/coffee-karma-angluar/issues"
   },
-  "homepage": "https://github.com/daggerok/coffee-jasmine-angluar#readme",
+  "homepage": "https://github.com/daggerok/coffee-karma-angluar#readme",
   "devDependencies": {
     "angular-mocks": "^1.4.8",
     "coffee-script": "^1.10.0",
