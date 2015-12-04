@@ -7,6 +7,7 @@ cache:
 script:
   - npm run build
   - npm run clean
+  - npm run dev
   - npm test
 notifications:
   email:
