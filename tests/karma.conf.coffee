@@ -1,7 +1,7 @@
 # Karma configuration
 
 module.exports = (config) ->
-  config.set
+  cfg =
     # base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '..'
 
@@ -11,6 +11,7 @@ module.exports = (config) ->
 
     plugins: [
       'karma-phantomjs-launcher'
+      'karma-chrome-launcher'
       'karma-jasmine'
     ]
 
@@ -56,10 +57,18 @@ module.exports = (config) ->
     # available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: ['PhantomJS'],
 
+    customLaunchers:
+      Chrome_travis_ci:
+        base: 'Chrome'
+        flags: ['--no-sandbox']
+
     # Continuous Integration mode
     # if true, Karma captures browsers, runs the tests and exits
-    singleRun: false,
+    singleRun: true,
 
     # Concurrency level
     # how many browser should be started simultanous
     concurrency: Infinity
+
+  cfg.browsers = ['Chrome_travis_ci'] if process.env.TRAVIS?
+  config.set cfg
