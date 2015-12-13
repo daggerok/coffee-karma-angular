@@ -1,4 +1,4 @@
-coffee-gulp-jasmine-js [![build](https://api.travis-ci.org/daggerok/coffee-karma-angular.svg?branch=master)](https://api.travis-ci.org/daggerok/coffee-karma-angular.svg?branch=master)
+coffee-karma-angular [![build](https://api.travis-ci.org/daggerok/coffee-karma-angular.svg?branch=master)](https://api.travis-ci.org/daggerok/coffee-karma-angular.svg?branch=master)
 ============================
 
   ```
