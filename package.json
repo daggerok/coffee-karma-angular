@@ -9,9 +9,9 @@
     "clean": "npm run gulp clean",
     "build": "npm run gulp",
     "serve": "npm run gulp serve",
+    "pretest": "npm run gulp dev",
     "test": "npm run gulp test",
     "dev": "npm run gulp dev",
-    "karma": "npm run gulp test",
     "start": "npm run gulp watch"
   },
   "repository": {
